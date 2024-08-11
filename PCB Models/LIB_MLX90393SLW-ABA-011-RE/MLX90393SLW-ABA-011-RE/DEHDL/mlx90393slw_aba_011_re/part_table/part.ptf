@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'MLX90393SLW_ABA_011_RE'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Melexis", "MLX90393SLW-ABA-011-RE" (!) = "", "QFN50P300X300X100-17N-D", "Quad Flat No-Lead", "482-90393SLWABA011RE", "https://www.mouser.co.uk/ProductDetail/Melexis/MLX90393SLW-ABA-011-RE?qs=KuGPmAKtFKWTlMmUHhqzlg%3D%3D", "Board Mount Hall Effect / Magnetic Sensors Triaxis Magnetic node - Micropower Magnetometer ft. SPI/I2C Output - I2C_address 0x03h - Consumer Grade (Gen.III)", "https://componentsearchengine.com/Datasheets/1/MLX90393SLW-ABA-011-RE.pdf", "1 mm"
+END_PART
+
+END.

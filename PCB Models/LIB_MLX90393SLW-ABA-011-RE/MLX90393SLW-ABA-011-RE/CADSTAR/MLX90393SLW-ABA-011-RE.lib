@@ -1,0 +1,16 @@
+.MLX90393SLW-ABA-011-RE :1 ;Board Mount Hall Effect / Magnetic Sensors Triaxis Magnetic node - Micropower Magnetometer ft. SPI/I2C Output - I2C_address 0x03h - Consumer Grade (Gen.III)
+QFN50P300X300X100-17N-D
+*STM IC
+*NGS
+*PLB 1="INT" 2="SENB/CS" 3="SCL/SCLK" 4="N/C_1" 5="SDA/MOSI" 6="MISO" 7="INT/TRIG" 8="VDD_IO" 9="N/C_2" 10="N/C_3" 11="A1" 12="A0" 13="VSS" 14="N/C_4" 15="VDD" 16="N/C_5" 17="GND"
+*MXP 17
+*DFN MLX90393SLW-ABA-011-RE
+~!Mouser Part Number (482-90393SLWABA011RE)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Melexis/MLX90393SLW-ABA-011-RE?qs=KuGPmAKtFKWTlMmUHhqzlg%3D%3D)
+~!Manufacturer_Name (Melexis)
+~!Manufacturer_Part_Number (MLX90393SLW-ABA-011-RE)
+~!Link Datasheet (https://componentsearchengine.com/Datasheets/1/MLX90393SLW-ABA-011-RE.pdf)
+~!Height (1mm)
+~!3D_Model (MLX90393SLW-ABA-011-RE)
+MLX90393SLW-ABA-011-RE
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 12.1!U 11.1!U 10.1!U 9.1!U 17.1!U 16.1!U 15.1!U 14.1!U 13.1!U 

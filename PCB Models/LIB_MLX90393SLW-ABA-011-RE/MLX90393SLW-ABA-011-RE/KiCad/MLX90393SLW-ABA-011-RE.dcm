@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MLX90393SLW-ABA-011-RE
+D Board Mount Hall Effect / Magnetic Sensors Triaxis Magnetic node - Micropower Magnetometer ft. SPI/I2C Output - I2C_address 0x03h - Consumer Grade (Gen.III)
+K
+F https://componentsearchengine.com/Datasheets/1/MLX90393SLW-ABA-011-RE.pdf
+$ENDCMP
+#
+#End Doc Library

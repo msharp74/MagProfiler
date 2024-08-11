@@ -1,0 +1,9 @@
+Manufacturer=Melexis
+PartNumber=MLX90393SLW-ABA-011-RE
+PartCategory=Integrated Circuit
+PackageCategory=Quad Flat No-Lead
+PinCount=17
+Version=1.1
+Released=2018-10-25 17:35:58
+Downloaded=2024-04-24 01:46:35
+3D=Y
