@@ -11923,7 +11923,7 @@
 		)
 		(uuid "64591632-c655-4930-b25c-2d92b88e3c41")
 	)
-	(text "M2 Mounting Holes"
+	(text "M4 Mounting Holes"
 		(exclude_from_sim no)
 		(at 36.068 236.22 0)
 		(effects
@@ -14516,7 +14516,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
 			(at 31.75 242.57 0)
 			(effects
 				(font
@@ -15120,7 +15120,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
 			(at 31.75 250.19 0)
 			(effects
 				(font
@@ -19344,7 +19344,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
 			(at 31.75 257.81 0)
 			(effects
 				(font
@@ -20629,7 +20629,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
 			(at 31.75 265.43 0)
 			(effects
 				(font
