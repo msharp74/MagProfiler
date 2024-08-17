@@ -505,6 +505,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
+    "bom_export_filename": "",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -617,6 +618,42 @@
     [
       "a3309886-ab27-4f3f-a056-7adffbf55c8a",
       "Root"
+    ],
+    [
+      "20bc52a5-ab71-44af-ae81-eaa12c2dc3b9",
+      "MAG1"
+    ],
+    [
+      "7b090aec-024f-4c5c-a071-08f38e525631",
+      "MAG4"
+    ],
+    [
+      "c9b6d364-1df3-4e47-a87f-6ca4b2e492fd",
+      "MAG7"
+    ],
+    [
+      "27cecdb9-0383-49ee-a86e-5322f5f88cd5",
+      "MAG2"
+    ],
+    [
+      "93f4d2d3-b012-45fd-8f84-f6945c32875a",
+      "MAG5"
+    ],
+    [
+      "12c919ee-2713-4aed-876a-5cbf49970dcf",
+      "MAG8"
+    ],
+    [
+      "7e356231-7ab4-4ff3-9767-031eb67efec6",
+      "MAG3"
+    ],
+    [
+      "7365b237-bd7d-45a0-829a-e4c6179f8e29",
+      "MAG6"
+    ],
+    [
+      "9eaabf9e-0c07-43c1-b8e0-d946f1b3d3b1",
+      "MAG9"
     ]
   ],
   "text_variables": {}
