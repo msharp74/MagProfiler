@@ -1094,7 +1094,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "17f6822d-8eac-42bb-9a84-7311c0e31b4b")
-		(property "Reference" "U2"
+		(property "Reference" "U9"
 			(at 150.114 78.74 0)
 			(effects
 				(font
@@ -1132,6 +1132,24 @@
 		)
 		(property "Description" "Wide dynamic range magnetometer"
 			(at 139.7 76.962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 139.7 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 139.7 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1241,7 +1259,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3bbb3057-8e44-42a8-925d-c4deff16ece3")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR039"
 			(at 138.43 116.84 0)
 			(effects
 				(font
@@ -1340,7 +1358,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "481f43d6-f0f7-4334-9292-728d6db9e62a")
-		(property "Reference" "C10"
+		(property "Reference" "C33"
 			(at 132.08 68.5799 0)
 			(effects
 				(font
@@ -1377,6 +1395,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 128.27 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 128.27 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 128.27 69.85 0)
 			(effects
 				(font
@@ -1442,7 +1478,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "609a92b8-1b1e-4902-aa32-d7091a7f21b3")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR035"
 			(at 138.43 67.31 0)
 			(effects
 				(font
@@ -1540,7 +1576,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7f7059c0-334e-4d0d-930a-4d9f504dd81d")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR038"
 			(at 157.48 93.98 0)
 			(effects
 				(font
@@ -1639,7 +1675,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cd466bff-0751-47d3-95a7-38407f6e0fd2")
-		(property "Reference" "C9"
+		(property "Reference" "C32"
 			(at 120.65 68.5799 0)
 			(effects
 				(font
@@ -1676,6 +1712,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 116.84 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 116.84 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 116.84 69.85 0)
 			(effects
 				(font
@@ -1741,7 +1795,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d566036e-7c4d-4fb9-a555-23c5371cad0f")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR036"
 			(at 116.84 82.55 0)
 			(effects
 				(font

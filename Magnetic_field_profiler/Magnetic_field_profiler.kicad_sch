@@ -251,22 +251,22 @@
 				)
 			)
 		)
-		(symbol "Connector:Screw_Terminal_01x06"
+		(symbol "Connector:Screw_Terminal_01x02"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 0 7.62 0)
+				(at 0 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Screw_Terminal_01x06"
-				(at 0 -10.16 0)
+			(property "Value" "Screw_Terminal_01x02"
+				(at 0 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -291,7 +291,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic screw terminal, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -318,10 +318,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "Screw_Terminal_01x06_1_1"
+			(symbol "Screw_Terminal_01x02_1_1"
 				(rectangle
-					(start -1.27 6.35)
-					(end 1.27 -8.89)
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -331,54 +331,8 @@
 					)
 				)
 				(circle
-					(center 0 -7.62)
-					(radius 0.635)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 -5.08)
-					(radius 0.635)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
 					(center 0 -2.54)
 					(radius 0.635)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.5334 -7.2898) (xy 0.3302 -8.128)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.5334 -4.7498) (xy 0.3302 -5.588)
-					)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -413,54 +367,6 @@
 				)
 				(polyline
 					(pts
-						(xy -0.5334 2.8702) (xy 0.3302 2.032)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.5334 5.4102) (xy 0.3302 4.572)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.3556 -7.112) (xy 0.508 -7.9502)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.3556 -4.572) (xy 0.508 -5.4102)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy -0.3556 -2.032) (xy 0.508 -2.8702)
 					)
 					(stroke
@@ -483,30 +389,6 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy -0.3556 3.048) (xy 0.508 2.2098)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.3556 5.588) (xy 0.508 4.7498)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(circle
 					(center 0 0)
 					(radius 0.635)
@@ -518,30 +400,8 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 0 2.54)
-					(radius 0.635)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 5.08)
-					(radius 0.635)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(pin passive line
-					(at -5.08 5.08 0)
+					(at -5.08 0 0)
 					(length 3.81)
 					(name "Pin_1"
 						(effects
@@ -559,7 +419,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 2.54 0)
+					(at -5.08 -2.54 0)
 					(length 3.81)
 					(name "Pin_2"
 						(effects
@@ -569,78 +429,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -5.08 0)
-					(length 3.81)
-					(name "Pin_5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -7.62 0)
-					(length 3.81)
-					(name "Pin_6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5276,22 +5064,10 @@
 		(uuid "4c2cbc3f-f4b1-4dcb-8f99-790d25dc470b")
 	)
 	(junction
-		(at 203.2 264.16)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "508030a3-c51e-427a-9126-81be9416c400")
-	)
-	(junction
 		(at 212.09 149.86)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "53284df7-5686-4624-877b-6a1bde75934b")
-	)
-	(junction
-		(at 203.2 261.62)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "53faad5d-9a63-416d-a350-1cc5c5daea64")
 	)
 	(junction
 		(at 95.25 255.27)
@@ -5340,12 +5116,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5e0c7b62-7202-483c-bfed-b58e95f9a1a6")
-	)
-	(junction
-		(at 203.2 251.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "624a6a02-dbd4-46f8-93e3-9716c3dcac47")
 	)
 	(junction
 		(at 100.33 152.4)
@@ -5436,12 +5206,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9026081a-5fb9-41ed-b5ff-c67b4b79ca4f")
-	)
-	(junction
-		(at 203.2 254)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "93e5162d-a47f-4221-be85-e9bd8f2a5742")
 	)
 	(junction
 		(at 246.38 152.4)
@@ -6839,16 +6603,6 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 267.97) (xy 207.01 264.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2e33b13a-63c2-4196-ab3f-fa52a309a91b")
-	)
-	(wire
-		(pts
 			(xy 156.21 172.72) (xy 166.37 172.72)
 		)
 		(stroke
@@ -7569,6 +7323,16 @@
 	)
 	(wire
 		(pts
+			(xy 207.01 259.08) (xy 203.2 259.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59a5b2f3-fd09-457b-a066-33cc4c342513")
+	)
+	(wire
+		(pts
 			(xy 147.32 259.08) (xy 147.32 255.27)
 		)
 		(stroke
@@ -7646,6 +7410,16 @@
 			(type default)
 		)
 		(uuid "5e1ee572-3218-4eb2-88ce-d9368f043022")
+	)
+	(wire
+		(pts
+			(xy 213.36 256.54) (xy 203.2 256.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e4cfd82-ff0e-48bf-a793-067ca0fd14f6")
 	)
 	(bus
 		(pts
@@ -8479,7 +8253,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 261.62) (xy 203.2 264.16)
+			(xy 207.01 259.08) (xy 207.01 267.97)
 		)
 		(stroke
 			(width 0)
@@ -8566,16 +8340,6 @@
 			(type default)
 		)
 		(uuid "92661942-793f-4099-93f5-5ce8d52121e0")
-	)
-	(wire
-		(pts
-			(xy 203.2 251.46) (xy 213.36 251.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9286ebce-6ae3-4b63-ae92-6faad4872e0a")
 	)
 	(wire
 		(pts
@@ -8736,16 +8500,6 @@
 			(type default)
 		)
 		(uuid "9b862a21-917a-48ba-ae2a-2198621458c6")
-	)
-	(wire
-		(pts
-			(xy 203.2 259.08) (xy 203.2 261.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c1d58f2-90d0-4ab1-80a1-5f22b0905765")
 	)
 	(wire
 		(pts
@@ -10069,16 +9823,6 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 247.65) (xy 213.36 251.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e541b5a2-bf26-408f-b197-81bbb216c6f3")
-	)
-	(wire
-		(pts
 			(xy 48.26 170.18) (xy 58.42 170.18)
 		)
 		(stroke
@@ -10096,16 +9840,6 @@
 			(type default)
 		)
 		(uuid "e54ce1cd-e984-482e-a208-566c3fa8f7e6")
-	)
-	(wire
-		(pts
-			(xy 203.2 251.46) (xy 203.2 254)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e72283d8-d8e8-4aa3-809a-2a50dd3764a2")
 	)
 	(wire
 		(pts
@@ -10369,23 +10103,13 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 254) (xy 203.2 256.54)
+			(xy 213.36 247.65) (xy 213.36 256.54)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f9f8a558-b131-45e8-aa59-1574a361b4a6")
-	)
-	(wire
-		(pts
-			(xy 207.01 264.16) (xy 203.2 264.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "faa22621-a53a-400b-8406-032fc2a47caf")
 	)
 	(wire
 		(pts
@@ -12482,6 +12206,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 39.37 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 39.37 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "47e80b6c-5ae9-4531-85af-9636b1071ffe")
 		)
@@ -12614,6 +12356,24 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 138.43 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 138.43 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 138.43 262.89 0)
 			(effects
 				(font
@@ -12826,6 +12586,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 49.53 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 49.53 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b28500aa-acf2-494c-a75c-938b83b34259")
 		)
@@ -12896,6 +12674,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 31.75 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 31.75 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "Magnetic_field_profiler"
 				(path "/a3309886-ab27-4f3f-a056-7adffbf55c8a"
@@ -12951,6 +12747,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 44.45 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 44.45 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 44.45 179.07 0)
 			(effects
 				(font
@@ -13230,6 +13044,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 246.38 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 246.38 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4494976f-a10d-4279-8a73-f97986e044af")
 		)
@@ -13358,6 +13190,24 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 31.75 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 31.75 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 31.75 250.19 0)
 			(effects
 				(font
@@ -13560,6 +13410,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 39.37 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 39.37 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3510e594-4a43-47f0-b4d4-4f3db378d73c")
 		)
@@ -13570,86 +13438,6 @@
 			(project "Magnetic_field_profiler"
 				(path "/a3309886-ab27-4f3f-a056-7adffbf55c8a"
 					(reference "R7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Screw_Terminal_01x06")
-		(at 198.12 259.08 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2cdd3acf-1aa4-481c-b62d-ea24d36d5061")
-		(property "Reference" "J4"
-			(at 198.12 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Screw_Terminal_01x06"
-			(at 198.12 247.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-6P_1x06_P2.54mm_Horizontal"
-			(at 198.12 259.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 198.12 259.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 198.12 259.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "3bcbfbfb-2132-417d-b07e-d0c8cc33128b")
-		)
-		(pin "1"
-			(uuid "5b86a857-fa4a-4114-8f86-4a3f2a6105dd")
-		)
-		(pin "3"
-			(uuid "de936c55-475c-46a8-9f87-f30d927fa73f")
-		)
-		(pin "2"
-			(uuid "cd75bbc3-4281-4030-b9eb-c2e7f49452cb")
-		)
-		(pin "5"
-			(uuid "a2f4d058-1b7c-46be-b05a-f6382c29b591")
-		)
-		(pin "6"
-			(uuid "5924ebb2-4f49-4dcc-88b9-32dde0633949")
-		)
-		(instances
-			(project ""
-				(path "/a3309886-ab27-4f3f-a056-7adffbf55c8a"
-					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -13774,6 +13562,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 50.8 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 50.8 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "b59ad205-4de7-4d07-ae06-44c73a2310c5")
 		)
@@ -13847,6 +13653,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 121.92 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 121.92 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "46ff3e84-5fd9-4e2d-a860-577aba5d9d50")
 		)
@@ -13857,6 +13681,74 @@
 			(project "Magnetic_field_profiler"
 				(path "/a3309886-ab27-4f3f-a056-7adffbf55c8a"
 					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 198.12 259.08 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "31da20d5-7d26-4c5b-97ed-1daf01f1b23b")
+		(property "Reference" "J4"
+			(at 198.12 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x02"
+			(at 198.12 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal"
+			(at 198.12 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 198.12 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 198.12 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "00991359-9078-4c12-ae59-c0776a5ee869")
+		)
+		(pin "2"
+			(uuid "0e24f458-70a8-494f-9665-3c107dd6040d")
+		)
+		(instances
+			(project ""
+				(path "/a3309886-ab27-4f3f-a056-7adffbf55c8a"
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -13984,6 +13876,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 35.56 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 35.56 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6198507d-9504-4446-ad30-f8672d51c459")
 		)
@@ -14054,6 +13964,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 100.33 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 100.33 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d73e8f09-df46-40f9-ab61-7f8ca969009d")
 		)
@@ -14114,6 +14042,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 128.27 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 128.27 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 128.27 255.27 0)
 			(effects
 				(font
@@ -14195,6 +14141,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 241.3 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 241.3 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3319d893-8b32-463b-9927-cb17793983af")
 		)
@@ -14260,6 +14224,24 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 111.76 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 111.76 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 111.76 185.42 0)
 			(effects
 				(font
@@ -14344,6 +14326,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 128.27 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 128.27 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8d7d5b31-fe69-409a-9f86-671f6d89e731")
 		)
@@ -14405,6 +14405,24 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 133.35 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 133.35 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 133.35 267.97 0)
 			(effects
 				(font
@@ -14475,6 +14493,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 72.39 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 72.39 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 72.39 38.1 0)
 			(effects
 				(font
@@ -14619,6 +14655,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 59.69 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 59.69 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9df83610-6e19-4e56-8e31-710403e3658d")
 		)
@@ -14755,6 +14809,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 33.02 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 33.02 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "534c7efa-8b6b-4c23-a489-3c0c82b87cb1")
 		)
@@ -14816,6 +14888,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 177.8 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 177.8 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 177.8 179.07 0)
 			(effects
 				(font
@@ -14894,6 +14984,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 60.96 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 60.96 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d3b5ab7e-ce3d-4ef3-b6e6-686cd79ca07b")
 		)
@@ -14953,6 +15061,24 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 110.49 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 110.49 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 110.49 200.66 0)
 			(effects
 				(font
@@ -15021,6 +15147,24 @@
 			)
 		)
 		(property "Description" "Inductor"
+			(at 138.43 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 138.43 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 138.43 259.08 0)
 			(effects
 				(font
@@ -15099,6 +15243,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 243.84 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 243.84 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d2ca1513-6f06-4e24-a63a-59112b521311")
 		)
@@ -15169,6 +15331,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 153.67 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 153.67 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "57697ccf-bd42-484a-8600-2c231bfe5388")
 		)
@@ -15231,6 +15411,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 50.8 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 50.8 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 50.8 95.25 0)
 			(effects
 				(font
@@ -15443,6 +15641,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 111.76 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 111.76 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "bd2d1757-8ad9-42eb-9398-cabb65113170")
 		)
@@ -15513,6 +15729,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 245.11 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 245.11 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7ecfd04d-f829-465f-ada8-a35a1b8e3729")
 		)
@@ -15575,6 +15809,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 22.86 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 22.86 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 22.86 38.1 0)
 			(effects
 				(font
@@ -15852,6 +16104,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 74.93 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 74.93 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "01d17206-ba24-4a1d-b87b-921c28b6e1ce")
 		)
@@ -15989,6 +16259,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 162.56 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 162.56 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "5d465a0b-2492-41dc-95fa-766fae9014e0")
 		)
@@ -16049,6 +16337,24 @@
 		)
 		(property "Description" "TC2050-IDC"
 			(at 212.598 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 214.63 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 214.63 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16149,6 +16455,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 52.07 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 52.07 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8b8a9db6-345a-4405-bd74-654d888c7e4f")
 		)
@@ -16211,6 +16535,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 22.86 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 22.86 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 22.86 54.61 0)
 			(effects
 				(font
@@ -16356,6 +16698,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 113.03 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 113.03 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0594d3c8-954c-43ef-9db8-004451ba54a7")
 		)
@@ -16493,6 +16853,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 166.37 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 166.37 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0770057f-f64b-4197-b713-37d49beea5dd")
 		)
@@ -16552,6 +16930,24 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 172.72 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 172.72 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 172.72 172.72 0)
 			(effects
 				(font
@@ -16630,6 +17026,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 31.75 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 31.75 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "Magnetic_field_profiler"
 				(path "/a3309886-ab27-4f3f-a056-7adffbf55c8a"
@@ -16686,6 +17100,24 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 166.37 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 166.37 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 166.37 190.5 0)
 			(effects
 				(font
@@ -16896,6 +17328,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 77.47 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 77.47 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "18"
 			(uuid "c4820f68-6d21-4eb0-a219-a9401170a665")
 		)
@@ -17046,6 +17496,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 185.42 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 185.42 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c892b0e1-e6b9-4e57-bfc4-5cdcf2b02a6f")
 		)
@@ -17182,6 +17650,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 193.04 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 193.04 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "aea9b849-dc09-49bc-a15d-774c51b1b6b3")
 		)
@@ -17308,6 +17794,24 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 110.49 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 110.49 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 110.49 198.12 0)
 			(effects
 				(font
@@ -17586,6 +18090,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 86.36 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 86.36 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b48c109e-2db1-4163-9536-899986520e18")
 		)
@@ -17719,6 +18241,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 243.84 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 243.84 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "177f9a3d-f064-4fab-94c5-625c776dafee")
 		)
@@ -17789,6 +18329,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 31.75 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 31.75 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "Magnetic_field_profiler"
 				(path "/a3309886-ab27-4f3f-a056-7adffbf55c8a"
@@ -17845,6 +18403,24 @@
 		)
 		(property "Description" "DRV8825 Stepper Motor Controller IC"
 			(at 234.188 156.464 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 210.82 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 210.82 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18336,6 +18912,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 220.98 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 220.98 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "905a3a7f-d071-4a44-a7da-6e5b94860a54")
 		)
@@ -18539,6 +19133,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 255.27 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 255.27 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d56ca9e3-ecdb-43b7-8cfc-e5c55671ed38")
 		)
@@ -18601,6 +19213,24 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 33.02 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 33.02 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 33.02 180.34 0)
 			(effects
 				(font
@@ -18679,6 +19309,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 139.7 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 139.7 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "5553baa0-55ef-40f6-925b-4c12aebecb14")
 		)
@@ -18749,6 +19397,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 140.97 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 140.97 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3284caca-3736-4277-bf58-26881915fbba")
 		)
@@ -18811,6 +19477,24 @@
 			)
 		)
 		(property "Description" "USB Micro Type B connector"
+			(at 157.48 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 157.48 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 157.48 74.93 0)
 			(effects
 				(font
@@ -18967,6 +19651,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 233.68 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 233.68 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "038735a4-a886-428e-a27b-150506187c13")
 		)
@@ -19104,6 +19806,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 87.63 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 87.63 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2e3e5c00-140f-48df-9db8-1a8016b0b5cc")
 		)
@@ -19163,6 +19883,24 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 243.84 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 243.84 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 243.84 198.12 0)
 			(effects
 				(font
@@ -19231,6 +19969,24 @@
 			)
 		)
 		(property "Description" "Ferrite bead"
+			(at 152.4 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 152.4 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 152.4 33.02 0)
 			(effects
 				(font
@@ -19373,6 +20129,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 68.58 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 68.58 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "075bedfb-48fe-4e33-892d-d76623c354ed")
 		)
@@ -19435,6 +20209,24 @@
 			)
 		)
 		(property "Description" "STMicroelectronics Arm Cortex-M3 MCU, 64KB flash, 20KB RAM, 72 MHz, 2.0-3.6V, 37 GPIO, LQFP48"
+			(at 100.33 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 100.33 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 100.33 85.09 0)
 			(effects
 				(font
@@ -19648,6 +20440,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 104.14 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 104.14 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "d7f6ecfb-a05c-420b-9918-22db239d0abe")
 		)
@@ -19797,6 +20607,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 27.94 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 27.94 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4c9b4a2c-6c99-450a-af9a-6285645161f4")
 		)
@@ -19859,6 +20687,24 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 245.11 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 245.11 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 245.11 185.42 0)
 			(effects
 				(font
