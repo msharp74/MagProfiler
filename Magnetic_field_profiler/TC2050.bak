@@ -49,7 +49,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "TC2050-IDC_0_1"
+		(symbol "TC2050-IDC_1_1"
 			(rectangle
 				(start -6.35 6.35)
 				(end 7.62 -6.35)
@@ -58,11 +58,9 @@
 					(type default)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
-		)
-		(symbol "TC2050-IDC_1_1"
 			(pin bidirectional line
 				(at -8.89 5.08 0)
 				(length 2.54)
