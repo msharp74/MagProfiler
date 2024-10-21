@@ -5845,6 +5845,12 @@
 		(uuid "bf225151-270b-40a3-b132-8b5f91fcbd8d")
 	)
 	(junction
+		(at 207.01 209.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c7cbdd1a-91a8-4999-b66f-57558af89ad9")
+	)
+	(junction
 		(at 233.68 190.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5891,12 +5897,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e72c26cd-8b65-460a-beae-6da6e7307545")
-	)
-	(junction
-		(at 269.24 220.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ed7c4e25-bb55-408e-a9f2-7bfbaaa30776")
 	)
 	(junction
 		(at 31.75 157.48)
@@ -6825,6 +6825,16 @@
 			(type default)
 		)
 		(uuid "01b47110-c173-4bb6-8f6e-3d162dc1820e")
+	)
+	(wire
+		(pts
+			(xy 207.01 207.01) (xy 207.01 209.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "023f6125-c217-4c04-bc64-ec6495128fad")
 	)
 	(wire
 		(pts
@@ -10355,16 +10365,6 @@
 			(type default)
 		)
 		(uuid "a9eda31c-4819-4658-9a63-69cd364d1718")
-	)
-	(wire
-		(pts
-			(xy 269.24 220.98) (xy 269.24 222.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a9fe0d52-3a85-4813-97de-427f116a40aa")
 	)
 	(wire
 		(pts
@@ -19507,6 +19507,73 @@
 			(project "Magnetic_field_profiler"
 				(path "/a3309886-ab27-4f3f-a056-7adffbf55c8a"
 					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 207.01 207.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "835cc2b4-9f41-4cbe-81a5-78ac83b352db")
+		(property "Reference" "#FLG05"
+			(at 207.01 205.105 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 207.01 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 207.01 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 207.01 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 207.01 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "136b1be3-dc5b-4d64-bc3d-9e4d8156b32d")
+		)
+		(instances
+			(project "Magnetic_field_profiler"
+				(path "/a3309886-ab27-4f3f-a056-7adffbf55c8a"
+					(reference "#FLG05")
 					(unit 1)
 				)
 			)
