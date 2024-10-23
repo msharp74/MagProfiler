@@ -1139,7 +1139,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Melexis Technologies NV"
 			(at 139.7 92.71 0)
 			(effects
 				(font
@@ -1148,7 +1148,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "MLX90393SLW-ABA-011-RE "
+			(at 139.7 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/melexis-technologies-nv/MLX90393SLW-ABA-011-RE/5031683"
 			(at 139.7 92.71 0)
 			(effects
 				(font
@@ -1469,6 +1478,15 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
+			(at 128.27 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" ""
 			(at 128.27 69.85 0)
 			(effects
 				(font
@@ -1870,6 +1888,15 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
+			(at 116.84 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" ""
 			(at 116.84 69.85 0)
 			(effects
 				(font

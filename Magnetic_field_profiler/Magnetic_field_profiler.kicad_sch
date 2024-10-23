@@ -12619,6 +12619,16 @@
 		)
 		(uuid "d435b626-51b3-44f3-97a7-78033e26e7d6")
 	)
+	(text "IO Expander"
+		(exclude_from_sim no)
+		(at 299.466 126.492 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f423310a-ad73-432f-ac8a-42021e4c2103")
+	)
 	(label "MAG_CS[1..16]"
 		(at 384.81 151.13 180)
 		(fields_autoplaced yes)
@@ -15087,6 +15097,15 @@
 				(hide yes)
 			)
 		)
+		(property "Distributor Link" ""
+			(at 39.37 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "47e80b6c-5ae9-4531-85af-9636b1071ffe")
 		)
@@ -15237,6 +15256,15 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
+			(at 95.25 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" ""
 			(at 95.25 165.1 0)
 			(effects
 				(font
@@ -15467,6 +15495,15 @@
 				(hide yes)
 			)
 		)
+		(property "Distributor Link" ""
+			(at 49.53 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b28500aa-acf2-494c-a75c-938b83b34259")
 		)
@@ -15547,6 +15584,15 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
+			(at 189.23 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" ""
 			(at 189.23 125.73 0)
 			(effects
 				(font
@@ -15636,6 +15682,15 @@
 				(hide yes)
 			)
 		)
+		(property "Distributor Link" ""
+			(at 123.19 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e7fb1b3b-554c-437e-a1a2-48c3197c6ce7")
 		)
@@ -15715,6 +15770,15 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
+			(at 44.45 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" ""
 			(at 44.45 227.33 0)
 			(effects
 				(font
@@ -16012,6 +16076,15 @@
 				(hide yes)
 			)
 		)
+		(property "Distributor Link" ""
+			(at 246.38 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4494976f-a10d-4279-8a73-f97986e044af")
 		)
@@ -16158,6 +16231,15 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
+			(at 212.09 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" ""
 			(at 212.09 125.73 0)
 			(effects
 				(font
@@ -16378,6 +16460,15 @@
 				(hide yes)
 			)
 		)
+		(property "Distributor Link" ""
+			(at 39.37 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3510e594-4a43-47f0-b4d4-4f3db378d73c")
 		)
@@ -16512,7 +16603,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Omron Electronics Inc-EMC Div"
 			(at 50.8 54.61 0)
 			(effects
 				(font
@@ -16521,7 +16612,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "B3F-1000"
+			(at 50.8 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/omron-electronics-inc-emc-div/B3F-1000/33150"
 			(at 50.8 54.61 0)
 			(effects
 				(font
@@ -16593,6 +16693,15 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 154.94 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" ""
 			(at 154.94 161.29 0)
 			(effects
 				(font
@@ -16756,6 +16865,15 @@
 				(hide yes)
 			)
 		)
+		(property "Distributor Link" ""
+			(at 35.56 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6198507d-9504-4446-ad30-f8672d51c459")
 		)
@@ -16844,6 +16962,15 @@
 				(hide yes)
 			)
 		)
+		(property "Distributor Link" ""
+			(at 100.33 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d73e8f09-df46-40f9-ab61-7f8ca969009d")
 		)
@@ -16922,6 +17049,15 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
+			(at 85.09 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" ""
 			(at 85.09 157.48 0)
 			(effects
 				(font
@@ -17021,6 +17157,15 @@
 				(hide yes)
 			)
 		)
+		(property "Distributor Link" ""
+			(at 234.95 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3319d893-8b32-463b-9927-cb17793983af")
 		)
@@ -17094,7 +17239,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "JST Sales America Inc."
 			(at 111.76 233.68 0)
 			(effects
 				(font
@@ -17103,7 +17248,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "S4B-PH-K-S"
+			(at 111.76 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/jst-sales-america-inc/S4B-PH-K-S/926628"
 			(at 111.76 233.68 0)
 			(effects
 				(font
@@ -17206,6 +17360,15 @@
 				(hide yes)
 			)
 		)
+		(property "Distributor Link" ""
+			(at 128.27 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8d7d5b31-fe69-409a-9f86-671f6d89e731")
 		)
@@ -17285,6 +17448,15 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
+			(at 90.17 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" ""
 			(at 90.17 170.18 0)
 			(effects
 				(font
@@ -17373,6 +17545,15 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
+			(at 72.39 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" ""
 			(at 72.39 38.1 0)
 			(effects
 				(font
@@ -17527,6 +17708,15 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
+			(at 59.69 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" ""
 			(at 59.69 203.2 0)
 			(effects
 				(font
@@ -17756,6 +17946,15 @@
 				(hide yes)
 			)
 		)
+		(property "Distributor Link" ""
+			(at 33.02 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "534c7efa-8b6b-4c23-a489-3c0c82b87cb1")
 		)
@@ -17835,6 +18034,15 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
+			(at 177.8 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" ""
 			(at 177.8 227.33 0)
 			(effects
 				(font
@@ -17931,6 +18139,15 @@
 				(hide yes)
 			)
 		)
+		(property "Distributor Link" ""
+			(at 60.96 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d3b5ab7e-ce3d-4ef3-b6e6-686cd79ca07b")
 		)
@@ -18008,6 +18225,15 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
+			(at 110.49 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" ""
 			(at 110.49 248.92 0)
 			(effects
 				(font
@@ -18094,6 +18320,15 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
+			(at 95.25 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" ""
 			(at 95.25 161.29 0)
 			(effects
 				(font
@@ -18190,6 +18425,15 @@
 				(hide yes)
 			)
 		)
+		(property "Distributor Link" ""
+			(at 237.49 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d2ca1513-6f06-4e24-a63a-59112b521311")
 		)
@@ -18270,6 +18514,15 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
+			(at 110.49 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" ""
 			(at 110.49 165.1 0)
 			(effects
 				(font
@@ -18366,6 +18619,15 @@
 				(hide yes)
 			)
 		)
+		(property "Distributor Link" ""
+			(at 50.8 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "94213804-dede-4715-9eb1-8517cd25e19e")
 		)
@@ -18428,6 +18690,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 135.89 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" ""
 			(at 135.89 214.63 0)
 			(effects
 				(font
@@ -18658,6 +18929,15 @@
 				(hide yes)
 			)
 		)
+		(property "Distributor Link" ""
+			(at 248.92 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7ecfd04d-f829-465f-ada8-a35a1b8e3729")
 		)
@@ -18738,6 +19018,15 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
+			(at 22.86 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" ""
 			(at 22.86 38.1 0)
 			(effects
 				(font
@@ -19099,6 +19388,15 @@
 				(hide yes)
 			)
 		)
+		(property "Distributor Link" ""
+			(at 31.75 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "01d17206-ba24-4a1d-b87b-921c28b6e1ce")
 		)
@@ -19254,6 +19552,15 @@
 				(hide yes)
 			)
 		)
+		(property "Distributor Link" ""
+			(at 162.56 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "5d465a0b-2492-41dc-95fa-766fae9014e0")
 		)
@@ -19331,6 +19638,15 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
+			(at 208.28 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" ""
 			(at 208.28 158.75 0)
 			(effects
 				(font
@@ -19450,6 +19766,15 @@
 				(hide yes)
 			)
 		)
+		(property "Distributor Link" ""
+			(at 52.07 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8b8a9db6-345a-4405-bd74-654d888c7e4f")
 		)
@@ -19530,6 +19855,15 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
+			(at 22.86 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" ""
 			(at 22.86 54.61 0)
 			(effects
 				(font
@@ -19685,6 +20019,15 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
+			(at 113.03 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" ""
 			(at 113.03 195.58 0)
 			(effects
 				(font
@@ -20116,6 +20459,15 @@
 				(hide yes)
 			)
 		)
+		(property "Distributor Link" ""
+			(at 166.37 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0770057f-f64b-4197-b713-37d49beea5dd")
 		)
@@ -20193,6 +20545,15 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
+			(at 172.72 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" ""
 			(at 172.72 220.98 0)
 			(effects
 				(font
@@ -20289,6 +20650,15 @@
 				(hide yes)
 			)
 		)
+		(property "Distributor Link" ""
+			(at 233.68 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "Magnetic_field_profiler"
 				(path "/a3309886-ab27-4f3f-a056-7adffbf55c8a"
@@ -20363,6 +20733,15 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
+			(at 166.37 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" ""
 			(at 166.37 238.76 0)
 			(effects
 				(font
@@ -20573,7 +20952,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Texas Instruments"
 			(at 77.47 238.76 0)
 			(effects
 				(font
@@ -20582,7 +20961,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "DRV8825PWPR"
+			(at 77.47 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/texas-instruments/DRV8825PWPR/2695909"
 			(at 77.47 238.76 0)
 			(effects
 				(font
@@ -20759,6 +21147,15 @@
 				(hide yes)
 			)
 		)
+		(property "Distributor Link" ""
+			(at 185.42 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c892b0e1-e6b9-4e57-bfc4-5cdcf2b02a6f")
 		)
@@ -20887,6 +21284,33 @@
 			)
 		)
 		(property "Description" "16-Bit I/O Expander with Serial Interface"
+			(at 340.36 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/microchip-technology/MCP23S17T-E-SS/964188"
+			(at 340.36 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Microchip Technology"
+			(at 340.36 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "MCP23S17T-E/SS"
 			(at 340.36 176.53 0)
 			(effects
 				(font
@@ -21060,6 +21484,15 @@
 				(hide yes)
 			)
 		)
+		(property "Distributor Link" ""
+			(at 193.04 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "aea9b849-dc09-49bc-a15d-774c51b1b6b3")
 		)
@@ -21212,6 +21645,15 @@
 				(hide yes)
 			)
 		)
+		(property "Distributor Link" ""
+			(at 110.49 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7cf966dc-4e68-4b28-8738-eb0653279059")
 		)
@@ -21246,7 +21688,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "PWR_LED"
 			(at 127 162.8774 90)
 			(effects
 				(font
@@ -21255,7 +21697,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 123.19 160.02 0)
 			(effects
 				(font
@@ -21274,6 +21716,33 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
+			(at 123.19 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/150080RS75000/4489918"
+			(at 123.19 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Würth Elektronik"
+			(at 123.19 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "150080RS75000"
 			(at 123.19 160.02 0)
 			(effects
 				(font
@@ -21570,6 +22039,15 @@
 				(hide yes)
 			)
 		)
+		(property "Distributor Link" ""
+			(at 55.88 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d58e4893-9740-4065-807e-943ac037aef2")
 		)
@@ -21604,7 +22082,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "STATUS_LED"
 			(at 59.69 113.3474 90)
 			(effects
 				(font
@@ -21613,7 +22091,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 55.88 110.49 0)
 			(effects
 				(font
@@ -21632,6 +22110,33 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
+			(at 55.88 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/150080VS75000/4489924"
+			(at 55.88 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Würth Elektronik"
+			(at 55.88 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "150080VS75000"
 			(at 55.88 110.49 0)
 			(effects
 				(font
@@ -21794,6 +22299,15 @@
 				(hide yes)
 			)
 		)
+		(property "Distributor Link" ""
+			(at 43.18 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b48c109e-2db1-4163-9536-899986520e18")
 		)
@@ -21945,6 +22459,15 @@
 				(hide yes)
 			)
 		)
+		(property "Distributor Link" ""
+			(at 243.84 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "177f9a3d-f064-4fab-94c5-625c776dafee")
 		)
@@ -22033,6 +22556,15 @@
 				(hide yes)
 			)
 		)
+		(property "Distributor Link" ""
+			(at 255.27 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "Magnetic_field_profiler"
 				(path "/a3309886-ab27-4f3f-a056-7adffbf55c8a"
@@ -22096,7 +22628,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Texas Instruments"
 			(at 210.82 238.76 0)
 			(effects
 				(font
@@ -22105,7 +22637,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "DRV8825PWPR"
+			(at 210.82 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/texas-instruments/DRV8825PWPR/2695909"
 			(at 210.82 238.76 0)
 			(effects
 				(font
@@ -22616,6 +23157,15 @@
 				(hide yes)
 			)
 		)
+		(property "Distributor Link" ""
+			(at 220.98 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "905a3a7f-d071-4a44-a7da-6e5b94860a54")
 		)
@@ -22836,6 +23386,15 @@
 				(hide yes)
 			)
 		)
+		(property "Distributor Link" ""
+			(at 330.2 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "04a74376-3630-4e8a-b2db-1952d0bf5018")
 		)
@@ -22916,6 +23475,15 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
+			(at 259.08 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" ""
 			(at 259.08 214.63 0)
 			(effects
 				(font
@@ -23012,6 +23580,15 @@
 				(hide yes)
 			)
 		)
+		(property "Distributor Link" ""
+			(at 33.02 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9ba0bc72-f219-434c-979c-db3edf950e21")
 		)
@@ -23074,6 +23651,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 269.24 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" ""
 			(at 269.24 214.63 0)
 			(effects
 				(font
@@ -23170,6 +23756,15 @@
 				(hide yes)
 			)
 		)
+		(property "Distributor Link" ""
+			(at 139.7 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "5553baa0-55ef-40f6-925b-4c12aebecb14")
 		)
@@ -23250,6 +23845,15 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
+			(at 140.97 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" ""
 			(at 140.97 68.58 0)
 			(effects
 				(font
@@ -23395,7 +23999,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Wurth Elektronik"
 			(at 157.48 74.93 0)
 			(effects
 				(font
@@ -23404,7 +24008,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "629105150521"
+			(at 157.48 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/629105150521/5047751?s=N4IgTCBcDaIGxgJwEYAMBWZ6NmSAugL5A"
 			(at 157.48 74.93 0)
 			(effects
 				(font
@@ -23579,6 +24192,15 @@
 				(hide yes)
 			)
 		)
+		(property "Distributor Link" ""
+			(at 233.68 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "038735a4-a886-428e-a27b-150506187c13")
 		)
@@ -23659,6 +24281,15 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
+			(at 115.57 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" ""
 			(at 115.57 214.63 0)
 			(effects
 				(font
@@ -23822,6 +24453,15 @@
 				(hide yes)
 			)
 		)
+		(property "Distributor Link" ""
+			(at 125.73 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "10f8686d-e9db-4d37-add1-74611740fb83")
 		)
@@ -23902,6 +24542,15 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
+			(at 87.63 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" ""
 			(at 87.63 195.58 0)
 			(effects
 				(font
@@ -23995,6 +24644,15 @@
 				(hide yes)
 			)
 		)
+		(property "Distributor Link" ""
+			(at 243.84 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8297d40d-8c7c-428d-adeb-4ffe99db3d38")
 		)
@@ -24073,6 +24731,15 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
+			(at 152.4 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" ""
 			(at 152.4 33.02 0)
 			(effects
 				(font
@@ -24233,6 +24900,15 @@
 				(hide yes)
 			)
 		)
+		(property "Distributor Link" ""
+			(at 68.58 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "075bedfb-48fe-4e33-892d-d76623c354ed")
 		)
@@ -24303,7 +24979,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "STMicroelectronics"
 			(at 100.33 85.09 0)
 			(effects
 				(font
@@ -24312,7 +24988,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "STM32F103C8T6TR"
+			(at 100.33 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/stmicroelectronics/STM32F103C8T6TR/2122442"
 			(at 100.33 85.09 0)
 			(effects
 				(font
@@ -24544,6 +25229,15 @@
 				(hide yes)
 			)
 		)
+		(property "Distributor Link" ""
+			(at 60.96 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "d7f6ecfb-a05c-420b-9918-22db239d0abe")
 		)
@@ -24711,6 +25405,15 @@
 				(hide yes)
 			)
 		)
+		(property "Distributor Link" ""
+			(at 27.94 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4c9b4a2c-6c99-450a-af9a-6285645161f4")
 		)
@@ -24781,7 +25484,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "JST Sales America Inc."
 			(at 245.11 233.68 0)
 			(effects
 				(font
@@ -24790,7 +25493,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "S4B-PH-K-S"
+			(at 245.11 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/jst-sales-america-inc/S4B-PH-K-S/926628"
 			(at 245.11 233.68 0)
 			(effects
 				(font
