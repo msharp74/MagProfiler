@@ -16701,7 +16701,25 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/phoenix-contact/1715022/260626"
+			(at 154.94 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Phoenix Contact"
+			(at 154.94 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "1715022"
 			(at 154.94 161.29 0)
 			(effects
 				(font
@@ -17139,7 +17157,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Diodes Incorporated"
 			(at 234.95 163.83 0)
 			(effects
 				(font
@@ -17148,7 +17166,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "BSS123-7-F"
 			(at 234.95 163.83 0)
 			(effects
 				(font
@@ -17157,7 +17175,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/diodes-incorporated/BSS123-7-F/717722"
 			(at 234.95 163.83 0)
 			(effects
 				(font
@@ -18188,7 +18206,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 110.49 247.142 90)
 			(effects
 				(font
@@ -18215,7 +18233,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Stackpole Electronics Inc"
 			(at 110.49 248.92 0)
 			(effects
 				(font
@@ -18224,7 +18242,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "CSR1206FKR200"
 			(at 110.49 248.92 0)
 			(effects
 				(font
@@ -18233,7 +18251,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CSR1206FKR200/1742391"
 			(at 110.49 248.92 0)
 			(effects
 				(font
@@ -18283,7 +18301,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_1210_3225Metric"
 			(at 95.25 161.29 0)
 			(effects
 				(font
@@ -18310,7 +18328,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Taiyo Yuden"
 			(at 95.25 161.29 0)
 			(effects
 				(font
@@ -18319,7 +18337,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "CBC3225T101MR"
 			(at 95.25 161.29 0)
 			(effects
 				(font
@@ -18328,7 +18346,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/taiyo-yuden/CBC3225T101MR/958010"
 			(at 95.25 161.29 0)
 			(effects
 				(font
@@ -18477,7 +18495,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 111.4552 168.91 0)
 			(effects
 				(font
@@ -19343,7 +19361,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 32.7152 165.1 0)
 			(effects
 				(font
@@ -21600,7 +21618,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 110.49 248.158 90)
 			(effects
 				(font
@@ -21627,7 +21645,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Stackpole Electronics Inc"
 			(at 110.49 246.38 0)
 			(effects
 				(font
@@ -21636,7 +21654,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "CSR1206FKR200"
 			(at 110.49 246.38 0)
 			(effects
 				(font
@@ -21645,7 +21663,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CSR1206FKR200/1742391"
 			(at 110.49 246.38 0)
 			(effects
 				(font
@@ -22414,7 +22432,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 243.84 247.142 90)
 			(effects
 				(font
@@ -22441,7 +22459,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Stackpole Electronics Inc"
 			(at 243.84 248.92 0)
 			(effects
 				(font
@@ -22450,7 +22468,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "CSR1206FKR200"
 			(at 243.84 248.92 0)
 			(effects
 				(font
@@ -22459,7 +22477,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CSR1206FKR200/1742391"
 			(at 243.84 248.92 0)
 			(effects
 				(font
@@ -24599,7 +24617,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 243.84 248.158 90)
 			(effects
 				(font
@@ -24626,7 +24644,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Stackpole Electronics Inc"
 			(at 243.84 246.38 0)
 			(effects
 				(font
@@ -24635,7 +24653,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "CSR1206FKR200"
 			(at 243.84 246.38 0)
 			(effects
 				(font
@@ -24644,7 +24662,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CSR1206FKR200/1742391"
 			(at 243.84 246.38 0)
 			(effects
 				(font
@@ -24721,7 +24739,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Murata Electronics"
 			(at 152.4 33.02 0)
 			(effects
 				(font
@@ -24730,7 +24748,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "BLM18KG121TN1D"
 			(at 152.4 33.02 0)
 			(effects
 				(font
@@ -24739,7 +24757,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/murata-electronics/BLM18KG121TN1D/1982762"
 			(at 152.4 33.02 0)
 			(effects
 				(font
