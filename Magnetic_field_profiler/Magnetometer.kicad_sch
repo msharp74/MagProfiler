@@ -1441,7 +1441,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 129.2352 73.66 0)
 			(effects
 				(font
@@ -1468,7 +1468,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Murata Electronics"
 			(at 128.27 69.85 0)
 			(effects
 				(font
@@ -1477,7 +1477,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "GRM033C81E104KE14D"
 			(at 128.27 69.85 0)
 			(effects
 				(font
@@ -1486,7 +1486,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/murata-electronics/GRM033C81E104KE14D/5027488"
 			(at 128.27 69.85 0)
 			(effects
 				(font
@@ -1851,7 +1851,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 117.8052 73.66 0)
 			(effects
 				(font
@@ -1878,7 +1878,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Murata Electronics"
 			(at 116.84 69.85 0)
 			(effects
 				(font
@@ -1887,7 +1887,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "GRM033C81E104KE14D"
 			(at 116.84 69.85 0)
 			(effects
 				(font
@@ -1896,7 +1896,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/murata-electronics/GRM033C81E104KE14D/5027488"
 			(at 116.84 69.85 0)
 			(effects
 				(font

@@ -929,6 +929,165 @@
 				)
 			)
 		)
+		(symbol "Device:C_Polarized_US"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Polarized_US"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Polarized capacitor, US symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "CP_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Polarized_US_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 2.286) (xy -0.762 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.778) (xy -1.27 2.794)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.032 -1.27)
+					(mid 0 -0.5572)
+					(end -2.032 -1.27)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Polarized_US_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 3.302)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:Crystal_GND24"
 			(pin_names
 				(offset 1.016) hide)
@@ -13051,17 +13210,6 @@
 		)
 		(uuid "1d569db6-be0f-4f0e-8b7f-bb7b970d38b6")
 	)
-	(label "SMPS_FB"
-		(at 72.39 165.1 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1f9f2002-0892-4d6f-97c0-d0733157ccd1")
-	)
 	(label "MTR2_STEP"
 		(at 179.07 248.92 0)
 		(fields_autoplaced yes)
@@ -15481,7 +15629,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 50.4952 41.91 0)
 			(effects
 				(font
@@ -15508,7 +15656,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Murata Electronics"
 			(at 49.53 38.1 0)
 			(effects
 				(font
@@ -15517,7 +15665,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "GRM033C81E104KE14D"
 			(at 49.53 38.1 0)
 			(effects
 				(font
@@ -15526,7 +15674,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/murata-electronics/GRM033C81E104KE14D/5027488"
 			(at 49.53 38.1 0)
 			(effects
 				(font
@@ -15695,7 +15843,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "YAGEO"
 			(at 106.68 168.91 0)
 			(effects
 				(font
@@ -15704,7 +15852,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "RC0805FR-071KL"
 			(at 106.68 168.91 0)
 			(effects
 				(font
@@ -15713,7 +15861,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/yageo/RC0805FR-071KL/727444"
 			(at 106.68 168.91 0)
 			(effects
 				(font
@@ -15764,7 +15912,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 45.4152 231.14 0)
 			(effects
 				(font
@@ -15791,7 +15939,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Murata Electronics"
 			(at 44.45 227.33 0)
 			(effects
 				(font
@@ -15800,7 +15948,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "GRM033R61E103KA12D"
 			(at 44.45 227.33 0)
 			(effects
 				(font
@@ -15809,7 +15957,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/murata-electronics/GRM033R61E103KA12D/3900496"
 			(at 44.45 227.33 0)
 			(effects
 				(font
@@ -16029,103 +16177,6 @@
 			(project "Magnetic_field_profiler"
 				(path "/a3309886-ab27-4f3f-a056-7adffbf55c8a"
 					(reference "#PWR043")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 246.38 195.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "245d1138-df5a-411b-8147-df58c4e78318")
-		(property "Reference" "C23"
-			(at 250.19 194.3099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100u"
-			(at 250.19 196.8499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 247.3452 199.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 246.38 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 246.38 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 246.38 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 246.38 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link" ""
-			(at 246.38 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4494976f-a10d-4279-8a73-f97986e044af")
-		)
-		(pin "1"
-			(uuid "29bef595-9814-4750-b40c-b9226d706baa")
-		)
-		(instances
-			(project "Magnetic_field_profiler"
-				(path "/a3309886-ab27-4f3f-a056-7adffbf55c8a"
-					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -16446,7 +16497,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 39.37 222.758 90)
 			(effects
 				(font
@@ -16473,7 +16524,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Stackpole Electronics Inc"
 			(at 39.37 220.98 0)
 			(effects
 				(font
@@ -16482,7 +16533,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "RMCF0805JT10K0"
 			(at 39.37 220.98 0)
 			(effects
 				(font
@@ -16491,7 +16542,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0805JT10K0/1757762"
 			(at 39.37 220.98 0)
 			(effects
 				(font
@@ -16510,6 +16561,103 @@
 			(project "Magnetic_field_profiler"
 				(path "/a3309886-ab27-4f3f-a056-7adffbf55c8a"
 					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized_US")
+		(at 246.38 195.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2be37402-007a-4c49-93e9-2a5a9e553304")
+		(property "Reference" "C23"
+			(at 250.19 193.6749 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100u"
+			(at 250.19 196.2149 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
+			(at 246.38 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 246.38 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor, US symbol"
+			(at 246.38 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/rubycon/16ZLH100MEFC5X11/3134106"
+			(at 246.38 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Rubycon"
+			(at 246.38 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "16ZLH100MEFC5X11"
+			(at 246.38 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b4afeb14-4a6e-4ca8-b3c5-14258a0cadd4")
+		)
+		(pin "2"
+			(uuid "f818719b-89d6-46e9-8ac0-27f7d6e3c52c")
+		)
+		(instances
+			(project "Magnetic_field_profiler"
+				(path "/a3309886-ab27-4f3f-a056-7adffbf55c8a"
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -16869,7 +17017,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 36.5252 41.91 0)
 			(effects
 				(font
@@ -16896,7 +17044,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Murata Electronics"
 			(at 35.56 38.1 0)
 			(effects
 				(font
@@ -16905,7 +17053,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "GRM033C81E104KE14D"
 			(at 35.56 38.1 0)
 			(effects
 				(font
@@ -16914,7 +17062,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/murata-electronics/GRM033C81E104KE14D/5027488"
 			(at 35.56 38.1 0)
 			(effects
 				(font
@@ -16966,7 +17114,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 101.2952 199.39 0)
 			(effects
 				(font
@@ -16993,7 +17141,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Murata Electronics"
 			(at 100.33 195.58 0)
 			(effects
 				(font
@@ -17002,7 +17150,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "GRM033C81E104KE14D"
 			(at 100.33 195.58 0)
 			(effects
 				(font
@@ -17011,7 +17159,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/murata-electronics/GRM033C81E104KE14D/5027488"
 			(at 100.33 195.58 0)
 			(effects
 				(font
@@ -17060,7 +17208,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 90.17 159.0548 0)
 			(effects
 				(font
@@ -17087,7 +17235,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Murata Electronics"
 			(at 86.36 160.02 0)
 			(effects
 				(font
@@ -17096,7 +17244,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "GRM033C81E104KE14D"
 			(at 86.36 160.02 0)
 			(effects
 				(font
@@ -17105,7 +17253,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/murata-electronics/GRM033C81E104KE14D/5027488"
 			(at 86.36 160.02 0)
 			(effects
 				(font
@@ -17363,7 +17511,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 129.2352 41.91 0)
 			(effects
 				(font
@@ -17390,7 +17538,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Murata Electronics"
 			(at 128.27 38.1 0)
 			(effects
 				(font
@@ -17399,7 +17547,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "GRM033R61E103KA12D"
 			(at 128.27 38.1 0)
 			(effects
 				(font
@@ -17408,7 +17556,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/murata-electronics/GRM033R61E103KA12D/3900496"
 			(at 128.27 38.1 0)
 			(effects
 				(font
@@ -17460,7 +17608,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 73.3552 41.91 0)
 			(effects
 				(font
@@ -17487,7 +17635,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Murata Electronics"
 			(at 72.39 38.1 0)
 			(effects
 				(font
@@ -17496,7 +17644,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "GRM033C81E104KE14D"
 			(at 72.39 38.1 0)
 			(effects
 				(font
@@ -17505,7 +17653,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/murata-electronics/GRM033C81E104KE14D/5027488"
 			(at 72.39 38.1 0)
 			(effects
 				(font
@@ -17623,7 +17771,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 60.6552 207.01 0)
 			(effects
 				(font
@@ -17650,7 +17798,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Murata Electronics"
 			(at 59.69 203.2 0)
 			(effects
 				(font
@@ -17659,7 +17807,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "GRM033C81E104KE14D"
 			(at 59.69 203.2 0)
 			(effects
 				(font
@@ -17668,7 +17816,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/murata-electronics/GRM033C81E104KE14D/5027488"
 			(at 59.69 203.2 0)
 			(effects
 				(font
@@ -17880,7 +18028,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "YAGEO"
 			(at 33.02 238.76 0)
 			(effects
 				(font
@@ -17889,7 +18037,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "RC0402FR-0730KL"
 			(at 33.02 238.76 0)
 			(effects
 				(font
@@ -17898,7 +18046,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/yageo/RC0402FR-0730KL/726586"
 			(at 33.02 238.76 0)
 			(effects
 				(font
@@ -17949,7 +18097,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 178.7652 231.14 0)
 			(effects
 				(font
@@ -17976,7 +18124,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Murata Electronics"
 			(at 177.8 227.33 0)
 			(effects
 				(font
@@ -17985,7 +18133,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "GRM033R61E103KA12D"
 			(at 177.8 227.33 0)
 			(effects
 				(font
@@ -17994,7 +18142,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/murata-electronics/GRM033R61E103KA12D/3900496"
 			(at 177.8 227.33 0)
 			(effects
 				(font
@@ -18046,7 +18194,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 61.9252 41.91 0)
 			(effects
 				(font
@@ -18073,7 +18221,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Murata Electronics"
 			(at 60.96 38.1 0)
 			(effects
 				(font
@@ -18082,7 +18230,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "GRM033C81E104KE14D"
 			(at 60.96 38.1 0)
 			(effects
 				(font
@@ -18091,7 +18239,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/murata-electronics/GRM033C81E104KE14D/5027488"
 			(at 60.96 38.1 0)
 			(effects
 				(font
@@ -18332,7 +18480,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 239.268 148.59 90)
 			(effects
 				(font
@@ -18359,7 +18507,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Stackpole Electronics Inc"
 			(at 237.49 148.59 0)
 			(effects
 				(font
@@ -18368,7 +18516,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "RMCF0805JT10K0"
 			(at 237.49 148.59 0)
 			(effects
 				(font
@@ -18377,7 +18525,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0805JT10K0/1757762"
 			(at 237.49 148.59 0)
 			(effects
 				(font
@@ -18396,6 +18544,103 @@
 			(project "Magnetic_field_profiler"
 				(path "/a3309886-ab27-4f3f-a056-7adffbf55c8a"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized_US")
+		(at 22.86 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "535af6f6-e980-4424-9e2d-e85931bd2f96")
+		(property "Reference" "C1"
+			(at 26.67 36.1949 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100u"
+			(at 26.67 38.7349 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
+			(at 22.86 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 22.86 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor, US symbol"
+			(at 22.86 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/rubycon/16ZLH100MEFC5X11/3134106"
+			(at 22.86 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Rubycon"
+			(at 22.86 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "16ZLH100MEFC5X11"
+			(at 22.86 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c078532c-f0ea-4a33-a169-871eef286b96")
+		)
+		(pin "2"
+			(uuid "a29461b4-08d4-4dd7-bbdd-c510d7c85132")
+		)
+		(instances
+			(project "Magnetic_field_profiler"
+				(path "/a3309886-ab27-4f3f-a056-7adffbf55c8a"
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -18428,7 +18673,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 120.3452 168.91 0)
 			(effects
 				(font
@@ -18455,7 +18700,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 119.38 165.1 0)
 			(effects
 				(font
@@ -18464,7 +18709,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "CL31A226MOCLNNC"
 			(at 119.38 165.1 0)
 			(effects
 				(font
@@ -18473,7 +18718,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL31A226MOCLNNC/3888386"
 			(at 119.38 165.1 0)
 			(effects
 				(font
@@ -18552,7 +18797,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Murata Electronics"
 			(at 50.8 95.25 0)
 			(effects
 				(font
@@ -18561,7 +18806,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "GRM1555C1H100FA01D"
 			(at 50.8 95.25 0)
 			(effects
 				(font
@@ -18649,7 +18894,25 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21B474KAFNNNG/3894535"
+			(at 135.89 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 135.89 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CL21B474KAFNNNG"
 			(at 135.89 214.63 0)
 			(effects
 				(font
@@ -18835,7 +19098,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 247.142 214.63 90)
 			(effects
 				(font
@@ -18862,7 +19125,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Stackpole Electronics Inc"
 			(at 248.92 214.63 0)
 			(effects
 				(font
@@ -18871,7 +19134,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "RMCF0805JT10K0"
 			(at 248.92 214.63 0)
 			(effects
 				(font
@@ -18880,7 +19143,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0805JT10K0/1757762"
 			(at 248.92 214.63 0)
 			(effects
 				(font
@@ -18899,103 +19162,6 @@
 			(project "Magnetic_field_profiler"
 				(path "/a3309886-ab27-4f3f-a056-7adffbf55c8a"
 					(reference "R10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 22.86 38.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5ed54e4c-c141-4810-b689-980d55858398")
-		(property "Reference" "C1"
-			(at 26.67 36.8299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100u"
-			(at 26.67 39.3699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 23.8252 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 22.86 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 22.86 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 22.86 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 22.86 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link" ""
-			(at 22.86 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e22b617d-4fff-4676-9c20-79e91ade27ba")
-		)
-		(pin "1"
-			(uuid "f56e9bf8-fec5-4d79-b278-95d713c48a54")
-		)
-		(instances
-			(project "Magnetic_field_profiler"
-				(path "/a3309886-ab27-4f3f-a056-7adffbf55c8a"
-					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -19293,7 +19459,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 129.2352 168.91 0)
 			(effects
 				(font
@@ -19320,7 +19486,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 128.27 165.1 0)
 			(effects
 				(font
@@ -19329,7 +19495,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "CL31A226MOCLNNC"
 			(at 128.27 165.1 0)
 			(effects
 				(font
@@ -19338,7 +19504,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL31A226MOCLNNC/3888386"
 			(at 128.27 165.1 0)
 			(effects
 				(font
@@ -19389,7 +19555,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 33.3248 160.02 0)
 			(effects
 				(font
@@ -19416,7 +19582,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 34.29 163.83 0)
 			(effects
 				(font
@@ -19425,7 +19591,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "CL31A226MOCLNNC"
 			(at 34.29 163.83 0)
 			(effects
 				(font
@@ -19434,7 +19600,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL31A226MOCLNNC/3888386"
 			(at 34.29 163.83 0)
 			(effects
 				(font
@@ -19580,7 +19746,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "YAGEO"
 			(at 162.56 38.1 0)
 			(effects
 				(font
@@ -19589,7 +19755,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "CC0603KRX5R8BB105"
 			(at 162.56 38.1 0)
 			(effects
 				(font
@@ -19598,7 +19764,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/yageo/CC0603KRX5R8BB105/2833610"
 			(at 162.56 38.1 0)
 			(effects
 				(font
@@ -19794,7 +19960,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "TE Connectivity Passive Product"
 			(at 52.07 203.2 0)
 			(effects
 				(font
@@ -19803,7 +19969,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "CRGCQ0402J1M0"
 			(at 52.07 203.2 0)
 			(effects
 				(font
@@ -19812,7 +19978,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/te-connectivity-passive-product/CRGCQ0402J1M0/8576668"
 			(at 52.07 203.2 0)
 			(effects
 				(font
@@ -19864,7 +20030,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 23.8252 58.42 0)
 			(effects
 				(font
@@ -19891,7 +20057,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Murata Electronics"
 			(at 22.86 54.61 0)
 			(effects
 				(font
@@ -19900,7 +20066,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "GRM033C81E104KE14D"
 			(at 22.86 54.61 0)
 			(effects
 				(font
@@ -19909,7 +20075,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/murata-electronics/GRM033C81E104KE14D/5027488"
 			(at 22.86 54.61 0)
 			(effects
 				(font
@@ -19995,103 +20161,6 @@
 			(project "Magnetic_field_profiler"
 				(path "/a3309886-ab27-4f3f-a056-7adffbf55c8a"
 					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 113.03 195.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "74e89108-cb6f-471d-b063-8dde618c5064")
-		(property "Reference" "C20"
-			(at 116.84 194.3099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100u"
-			(at 116.84 196.8499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 113.9952 199.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 113.03 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 113.03 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 113.03 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 113.03 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link" ""
-			(at 113.03 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "0594d3c8-954c-43ef-9db8-004451ba54a7")
-		)
-		(pin "1"
-			(uuid "5e1bb1ee-e60e-499e-992c-35cf0aa50b18")
-		)
-		(instances
-			(project "Magnetic_field_profiler"
-				(path "/a3309886-ab27-4f3f-a056-7adffbf55c8a"
-					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -20487,7 +20556,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Vishay Dale"
 			(at 166.37 228.6 0)
 			(effects
 				(font
@@ -20496,7 +20565,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "CRCW040250K0FKED"
 			(at 166.37 228.6 0)
 			(effects
 				(font
@@ -20505,7 +20574,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/vishay-dale/CRCW040250K0FKED/21556508"
 			(at 166.37 228.6 0)
 			(effects
 				(font
@@ -20554,7 +20623,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 172.72 222.758 90)
 			(effects
 				(font
@@ -20581,7 +20650,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Stackpole Electronics Inc"
 			(at 172.72 220.98 0)
 			(effects
 				(font
@@ -20590,7 +20659,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "RMCF0805JT10K0"
 			(at 172.72 220.98 0)
 			(effects
 				(font
@@ -20599,7 +20668,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0805JT10K0/1757762"
 			(at 172.72 220.98 0)
 			(effects
 				(font
@@ -20769,7 +20838,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "YAGEO"
 			(at 166.37 238.76 0)
 			(effects
 				(font
@@ -20778,7 +20847,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "RC0402FR-0730KL"
 			(at 166.37 238.76 0)
 			(effects
 				(font
@@ -20787,7 +20856,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/yageo/RC0402FR-0730KL/726586"
 			(at 166.37 238.76 0)
 			(effects
 				(font
@@ -20939,6 +21008,103 @@
 			(project "Magnetic_field_profiler"
 				(path "/a3309886-ab27-4f3f-a056-7adffbf55c8a"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized_US")
+		(at 113.03 195.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8effc00e-95ec-486c-bb4e-694908319174")
+		(property "Reference" "C20"
+			(at 116.84 193.6749 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100u"
+			(at 116.84 196.2149 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
+			(at 113.03 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 113.03 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor, US symbol"
+			(at 113.03 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/rubycon/16ZLH100MEFC5X11/3134106"
+			(at 113.03 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Rubycon"
+			(at 113.03 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "16ZLH100MEFC5X11"
+			(at 113.03 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c23bfb54-63e5-4048-bd3d-6afd9563c296")
+		)
+		(pin "2"
+			(uuid "3d3bb6bd-dbc5-46a9-ae2b-4c7ffc323180")
+		)
+		(instances
+			(project ""
+				(path "/a3309886-ab27-4f3f-a056-7adffbf55c8a"
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -21175,7 +21341,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "TE Connectivity Passive Product"
 			(at 185.42 203.2 0)
 			(effects
 				(font
@@ -21184,7 +21350,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "CRGCQ0402J1M0"
 			(at 185.42 203.2 0)
 			(effects
 				(font
@@ -21193,7 +21359,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/te-connectivity-passive-product/CRGCQ0402J1M0/8576668"
 			(at 185.42 203.2 0)
 			(effects
 				(font
@@ -21485,7 +21651,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 194.0052 207.01 0)
 			(effects
 				(font
@@ -21512,7 +21678,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Murata Electronics"
 			(at 193.04 203.2 0)
 			(effects
 				(font
@@ -21521,7 +21687,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "GRM033C81E104KE14D"
 			(at 193.04 203.2 0)
 			(effects
 				(font
@@ -21530,7 +21696,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/murata-electronics/GRM033C81E104KE14D/5027488"
 			(at 193.04 203.2 0)
 			(effects
 				(font
@@ -22066,7 +22232,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "YAGEO"
 			(at 55.88 119.38 0)
 			(effects
 				(font
@@ -22075,7 +22241,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "RC0805FR-071KL"
 			(at 55.88 119.38 0)
 			(effects
 				(font
@@ -22084,7 +22250,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/yageo/RC0805FR-071KL/727444"
 			(at 55.88 119.38 0)
 			(effects
 				(font
@@ -22298,7 +22464,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 42.8752 167.64 0)
 			(effects
 				(font
@@ -22325,7 +22491,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Murata Electronics"
 			(at 41.91 163.83 0)
 			(effects
 				(font
@@ -22334,7 +22500,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "GRM033C81E104KE14D"
 			(at 41.91 163.83 0)
 			(effects
 				(font
@@ -22343,7 +22509,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/murata-electronics/GRM033C81E104KE14D/5027488"
 			(at 41.91 163.83 0)
 			(effects
 				(font
@@ -23156,7 +23322,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 221.9452 199.39 0)
 			(effects
 				(font
@@ -23183,7 +23349,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Murata Electronics"
 			(at 220.98 195.58 0)
 			(effects
 				(font
@@ -23192,7 +23358,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "GRM033C81E104KE14D"
 			(at 220.98 195.58 0)
 			(effects
 				(font
@@ -23201,7 +23367,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/murata-electronics/GRM033C81E104KE14D/5027488"
 			(at 220.98 195.58 0)
 			(effects
 				(font
@@ -23385,7 +23551,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 331.1652 147.32 0)
 			(effects
 				(font
@@ -23412,7 +23578,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Murata Electronics"
 			(at 330.2 143.51 0)
 			(effects
 				(font
@@ -23421,7 +23587,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "GRM033C81E104KE14D"
 			(at 330.2 143.51 0)
 			(effects
 				(font
@@ -23430,7 +23596,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/murata-electronics/GRM033C81E104KE14D/5027488"
 			(at 330.2 143.51 0)
 			(effects
 				(font
@@ -23482,7 +23648,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 257.302 214.63 90)
 			(effects
 				(font
@@ -23509,7 +23675,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Stackpole Electronics Inc"
 			(at 259.08 214.63 0)
 			(effects
 				(font
@@ -23518,7 +23684,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "RMCF0805JT10K0"
 			(at 259.08 214.63 0)
 			(effects
 				(font
@@ -23527,7 +23693,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0805JT10K0/1757762"
 			(at 259.08 214.63 0)
 			(effects
 				(font
@@ -23606,7 +23772,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Vishay Dale"
 			(at 33.02 228.6 0)
 			(effects
 				(font
@@ -23615,7 +23781,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "CRCW040250K0FKED"
 			(at 33.02 228.6 0)
 			(effects
 				(font
@@ -23624,7 +23790,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/vishay-dale/CRCW040250K0FKED/21556508"
 			(at 33.02 228.6 0)
 			(effects
 				(font
@@ -23703,7 +23869,25 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21B474KAFNNNG/3894535"
+			(at 269.24 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 269.24 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CL21B474KAFNNNG"
 			(at 269.24 214.63 0)
 			(effects
 				(font
@@ -23782,7 +23966,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "YAGEO"
 			(at 139.7 38.1 0)
 			(effects
 				(font
@@ -23791,7 +23975,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "CC0603KRX5R8BB105"
 			(at 139.7 38.1 0)
 			(effects
 				(font
@@ -23800,7 +23984,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/yageo/CC0603KRX5R8BB105/2833610"
 			(at 139.7 38.1 0)
 			(effects
 				(font
@@ -23879,7 +24063,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "YAGEO"
 			(at 140.97 68.58 0)
 			(effects
 				(font
@@ -23888,7 +24072,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "RC0805JR-071K5L"
 			(at 140.97 68.58 0)
 			(effects
 				(font
@@ -23897,7 +24081,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/yageo/RC0805JR-071K5L/728230"
 			(at 140.97 68.58 0)
 			(effects
 				(font
@@ -24216,6 +24400,33 @@
 				(hide yes)
 			)
 		)
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/diodes-incorporated/AP63203WU-7/9858426?s=N4IgTCBcDaIIIAUBsBmMAGFB1AqiAugL5A"
+			(at 60.96 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Diodes Incorporated"
+			(at 60.96 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "AP63203WU-7"
+			(at 60.96 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "f4d61286-c34b-4403-ad97-ebff708c63fd")
 		)
@@ -24271,7 +24482,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 234.6452 199.39 0)
 			(effects
 				(font
@@ -24298,7 +24509,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Murata Electronics"
 			(at 233.68 195.58 0)
 			(effects
 				(font
@@ -24307,7 +24518,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "GRM033C81E104KE14D"
 			(at 233.68 195.58 0)
 			(effects
 				(font
@@ -24316,7 +24527,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/murata-electronics/GRM033C81E104KE14D/5027488"
 			(at 233.68 195.58 0)
 			(effects
 				(font
@@ -24368,7 +24579,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 113.792 214.63 90)
 			(effects
 				(font
@@ -24395,7 +24606,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Stackpole Electronics Inc"
 			(at 115.57 214.63 0)
 			(effects
 				(font
@@ -24404,7 +24615,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "RMCF0805JT10K0"
 			(at 115.57 214.63 0)
 			(effects
 				(font
@@ -24413,7 +24624,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0805JT10K0/1757762"
 			(at 115.57 214.63 0)
 			(effects
 				(font
@@ -24532,7 +24743,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 123.952 214.63 90)
 			(effects
 				(font
@@ -24559,7 +24770,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Stackpole Electronics Inc"
 			(at 125.73 214.63 0)
 			(effects
 				(font
@@ -24568,7 +24779,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "RMCF0805JT10K0"
 			(at 125.73 214.63 0)
 			(effects
 				(font
@@ -24577,7 +24788,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0805JT10K0/1757762"
 			(at 125.73 214.63 0)
 			(effects
 				(font
@@ -24629,7 +24840,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 88.5952 199.39 0)
 			(effects
 				(font
@@ -24656,7 +24867,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Murata Electronics"
 			(at 87.63 195.58 0)
 			(effects
 				(font
@@ -24665,7 +24876,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "GRM033C81E104KE14D"
 			(at 87.63 195.58 0)
 			(effects
 				(font
@@ -24674,7 +24885,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/murata-electronics/GRM033C81E104KE14D/5027488"
 			(at 87.63 195.58 0)
 			(effects
 				(font
@@ -24979,7 +25190,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 68.58 56.388 90)
 			(effects
 				(font
@@ -25006,7 +25217,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Stackpole Electronics Inc"
 			(at 68.58 54.61 0)
 			(effects
 				(font
@@ -25015,7 +25226,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "RMCF0805JT10K0"
 			(at 68.58 54.61 0)
 			(effects
 				(font
@@ -25024,7 +25235,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0805JT10K0/1757762"
 			(at 68.58 54.61 0)
 			(effects
 				(font
@@ -25405,7 +25616,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Murata Electronics"
 			(at 27.94 95.25 0)
 			(effects
 				(font
@@ -25414,7 +25625,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "GRM1555C1H100FA01D"
 			(at 27.94 95.25 0)
 			(effects
 				(font
