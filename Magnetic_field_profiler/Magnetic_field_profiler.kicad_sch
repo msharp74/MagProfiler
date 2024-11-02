@@ -5497,126 +5497,6 @@
 				)
 			)
 		)
-		(symbol "power:+5V"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+5V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+5V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+5V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+5V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers hide)
@@ -6296,6 +6176,10 @@
 	(no_connect
 		(at 118.11 49.53)
 		(uuid "322a8a8a-c0a9-4710-99b6-979ee90c8d7c")
+	)
+	(no_connect
+		(at 149.86 69.85)
+		(uuid "3d18e104-4d45-40c4-9184-98c76bda3650")
 	)
 	(no_connect
 		(at 118.11 74.93)
@@ -8517,16 +8401,6 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 62.23) (xy 148.59 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e1f55d7-5d9c-4594-a7c1-b691ed11bb1d")
-	)
-	(wire
-		(pts
 			(xy 52.07 198.12) (xy 59.69 198.12)
 		)
 		(stroke
@@ -9834,16 +9708,6 @@
 			(type default)
 		)
 		(uuid "7affbcb9-2aa7-439a-938b-311a5096daf3")
-	)
-	(wire
-		(pts
-			(xy 149.86 69.85) (xy 148.59 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7c1512e7-8653-420d-9689-b8fa6950a362")
 	)
 	(bus
 		(pts
@@ -13782,7 +13646,7 @@
 		)
 		(uuid "514571e5-588f-4123-8a73-47867e3b006f")
 	)
-	(label "IO_RST"
+	(label "IO1_RST"
 		(at 73.66 110.49 0)
 		(fields_autoplaced yes)
 		(effects
@@ -14222,7 +14086,7 @@
 		)
 		(uuid "84781dae-394e-4962-aaff-802c5e5b8189")
 	)
-	(label "IO_CS"
+	(label "IO1_CS"
 		(at 311.15 165.1 0)
 		(fields_autoplaced yes)
 		(effects
@@ -14299,7 +14163,7 @@
 		)
 		(uuid "8d24a9ee-08f7-4d64-8cef-32134efde668")
 	)
-	(label "IO_CS"
+	(label "IO1_CS"
 		(at 73.66 107.95 0)
 		(fields_autoplaced yes)
 		(effects
@@ -14519,7 +14383,7 @@
 		)
 		(uuid "a50f846a-c737-4465-84e6-0ab6314c9fd4")
 	)
-	(label "IO_RST"
+	(label "IO1_RST"
 		(at 311.15 160.02 0)
 		(fields_autoplaced yes)
 		(effects
@@ -23453,72 +23317,6 @@
 			(project "Magnetic_field_profiler"
 				(path "/a3309886-ab27-4f3f-a056-7adffbf55c8a"
 					(reference "#PWR025")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 148.59 62.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d2b11ce9-3d1f-4500-af8d-a540fb5ab663")
-		(property "Reference" "#PWR011"
-			(at 148.59 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 148.59 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 148.59 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 148.59 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 148.59 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "504917fd-2e9c-4952-8e02-b5cca0712b31")
-		)
-		(instances
-			(project "Magnetic_field_profiler"
-				(path "/a3309886-ab27-4f3f-a056-7adffbf55c8a"
-					(reference "#PWR011")
 					(unit 1)
 				)
 			)
