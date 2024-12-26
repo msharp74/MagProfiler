@@ -30,10 +30,10 @@ class DM320T
   private:
   int m_pulsePin {};
   int m_directionPin {};
+  int m_microstepSize {};
   int m_homePin {};
   bool m_direction {};
   int m_position {};
-  int m_microstepSize {};
   int m_motorHome {};
 
   enum Direction
@@ -54,11 +54,13 @@ class DM320T
     pinMode(m_homePin, INPUT);
     digitalWrite(m_pulsePin, 0);
     digitalWrite(m_direction, 0);
+    Serial.println("Motor Object Created");
   }
 
   int getPosition() const {return m_position;}
   bool getDirection() const {return m_direction;}
   int getMicrostepSize() const {return m_microstepSize;}
+  int getPulsePin() const {return m_pulsePin;}
   
   void setDirection(bool direction) 
   {
@@ -71,8 +73,11 @@ class DM320T
     for (int i = 0; i < steps; i++)
     {
       digitalWrite(m_pulsePin, LOW);
+      delayMicroseconds(10);
       digitalWrite(m_pulsePin, HIGH);
+      delayMicroseconds(10);
       digitalWrite(m_pulsePin, LOW);
+      delay(1);
     }
   }
 
@@ -97,14 +102,39 @@ class dualLeadscrewCarriage
   dualLeadscrewCarriage(DM320T motor1, DM320T motor2)
     : m_motor1 {motor1}, m_motor2 {motor2}
   {
-    m_motor1.homeMotor();
-    m_motor2.homeMotor();
+    // m_motor1.homeMotor();
+    // m_motor2.homeMotor();
   }
 
   bool outOfRange(double currentPosition, double targetDisplacement, double delta)
   {
     bool evaluation {currentPosition < targetDisplacement*(1 - delta) || currentPosition < targetDisplacement*(1 + delta)};
     return evaluation;
+  }
+
+  void linearMove(int pulses)
+  {
+    if (pulses < 0)
+    {
+      m_motor1.setDirection(true);
+      m_motor2.setDirection(true);
+      pulses *= -1;
+    } else {
+      m_motor1.setDirection(false);
+      m_motor2.setDirection(false);
+    }
+    for (int i {0}; i < pulses; i++)
+    {
+      digitalWrite(m_motor1.getPulsePin(), LOW);
+      digitalWrite(m_motor2.getPulsePin(), LOW);
+      delayMicroseconds(10);
+      digitalWrite(m_motor1.getPulsePin(), HIGH);
+      digitalWrite(m_motor2.getPulsePin(), HIGH);
+      delayMicroseconds(10);
+      digitalWrite(m_motor1.getPulsePin(), LOW);
+      digitalWrite(m_motor2.getPulsePin(), LOW);
+      delay(1);
+    }
   }
 
   void linearMove(double linearDisplacement)
@@ -116,15 +146,56 @@ class dualLeadscrewCarriage
     }
   }
 
-  void rotationalMove()
+  void rotationalMove(int pulses)
   {
-    
+    if (pulses < 0)
+    {
+      m_motor1.setDirection(false);
+      m_motor2.setDirection(true);
+      pulses *= -1;
+    } else {
+      m_motor1.setDirection(true);
+      m_motor2.setDirection(false);
+    }
+
+    for (int i {0}; i < pulses; i++)
+    {
+      digitalWrite(m_motor1.getPulsePin(), LOW);
+      digitalWrite(m_motor2.getPulsePin(), LOW);
+      delayMicroseconds(10);
+      digitalWrite(m_motor1.getPulsePin(), HIGH);
+      digitalWrite(m_motor2.getPulsePin(), HIGH);
+      delayMicroseconds(10);
+      digitalWrite(m_motor1.getPulsePin(), LOW);
+      digitalWrite(m_motor2.getPulsePin(), LOW);
+      delay(1);
+    }
   }
 
 };
 
 void setup() {
-  // put your setup code here, to run once:
+  Serial.begin(115200);
+  DM320T motor1 {3, 2, 400, 5};
+  DM320T motor2 {7, 8, 400, 5};
+  dualLeadscrewCarriage dlc {motor1, motor2};
+
+  while (true)
+  {
+    // motor.setDirection(false);
+    // Serial.println("false");
+    // motor.moveMotor(4000);
+    // delay(500);
+    // motor.setDirection(true);
+    // Serial.println("true");
+    // motor.moveMotor(4000);
+    // delay(500);
+    dlc.linearMove(-8000);
+    dlc.rotationalMove(4000);
+    dlc.linearMove(4000);
+    dlc.rotationalMove(-4000);
+    dlc.linearMove(4000);
+  }
 }
 
 void loop() {
