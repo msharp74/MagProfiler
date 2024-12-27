@@ -58,6 +58,7 @@ class DM320T
   }
 
   int getPosition() const {return m_position;}
+  int incrementPosition(int pulses = 1) {m_direction ? (m_position += pulses) : (m_position -= pulses);}
   bool getDirection() const {return m_direction;}
   int getMicrostepSize() const {return m_microstepSize;}
   int getPulsePin() const {return m_pulsePin;}
@@ -131,8 +132,10 @@ class dualLeadscrewCarriage
       digitalWrite(m_motor1.getPulsePin(), HIGH);
       digitalWrite(m_motor2.getPulsePin(), HIGH);
       delayMicroseconds(10);
-      digitalWrite(m_motor1.getPulsePin(), LOW);
-      digitalWrite(m_motor2.getPulsePin(), LOW);
+      m_motor1.incrementPosition();
+      m_motor2.incrementPosition();
+      // digitalWrite(m_motor1.getPulsePin(), LOW);
+      // digitalWrite(m_motor2.getPulsePin(), LOW);
       delay(1);
     }
   }
@@ -166,12 +169,13 @@ class dualLeadscrewCarriage
       digitalWrite(m_motor1.getPulsePin(), HIGH);
       digitalWrite(m_motor2.getPulsePin(), HIGH);
       delayMicroseconds(10);
-      digitalWrite(m_motor1.getPulsePin(), LOW);
-      digitalWrite(m_motor2.getPulsePin(), LOW);
+      m_motor1.incrementPosition();
+      m_motor2.incrementPosition();
+      // digitalWrite(m_motor1.getPulsePin(), LOW);
+      // digitalWrite(m_motor2.getPulsePin(), LOW);
       delay(1);
     }
   }
-
 };
 
 void setup() {
