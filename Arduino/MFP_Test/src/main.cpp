@@ -1,4 +1,5 @@
 #include <Arduino.h>
+#include "DM320T.h"
 
 class PID
 {
@@ -25,73 +26,7 @@ class PID
   }
 };
 
-class DM320T
-{
-  private:
-  int m_pulsePin {};
-  int m_directionPin {};
-  int m_microstepSize {};
-  int m_homePin {};
-  bool m_direction {};
-  int m_position {};
-  int m_motorHome {};
 
-  enum Direction
-  {
-    down,
-    up
-  };
-
-  public:
-  DM320T()
-  {}
-
-  DM320T(int pulsePin, int directionPin, int microstepSize, int homePin)
-    : m_pulsePin {pulsePin}, m_directionPin {directionPin}, m_microstepSize {microstepSize}, m_homePin {homePin}
-  {
-    pinMode(m_pulsePin, OUTPUT);
-    pinMode(m_directionPin, OUTPUT);
-    pinMode(m_homePin, INPUT);
-    digitalWrite(m_pulsePin, 0);
-    digitalWrite(m_direction, 0);
-    Serial.println("Motor Object Created");
-  }
-
-  int getPosition() const {return m_position;}
-  int incrementPosition(int pulses = 1) {m_direction ? (m_position += pulses) : (m_position -= pulses);}
-  bool getDirection() const {return m_direction;}
-  int getMicrostepSize() const {return m_microstepSize;}
-  int getPulsePin() const {return m_pulsePin;}
-  
-  void setDirection(bool direction) 
-  {
-    m_direction = direction;
-    digitalWrite(m_directionPin, direction);
-  }
-
-  void moveMotor(int steps = 1)
-  {
-    for (int i = 0; i < steps; i++)
-    {
-      digitalWrite(m_pulsePin, LOW);
-      delayMicroseconds(10);
-      digitalWrite(m_pulsePin, HIGH);
-      delayMicroseconds(10);
-      digitalWrite(m_pulsePin, LOW);
-      delay(1);
-    }
-  }
-
-  void homeMotor()
-  {
-    setDirection(down);
-    while (!digitalRead(m_homePin))
-    {
-      moveMotor();
-    }
-    m_motorHome = true;
-  }
-};
 
 class dualLeadscrewCarriage
 {
@@ -117,12 +52,12 @@ class dualLeadscrewCarriage
   {
     if (pulses < 0)
     {
-      m_motor1.setDirection(true);
-      m_motor2.setDirection(true);
+      m_motor1.setDirection(DM320T::down);
+      m_motor2.setDirection(DM320T::down);
       pulses *= -1;
     } else {
-      m_motor1.setDirection(false);
-      m_motor2.setDirection(false);
+      m_motor1.setDirection(DM320T::up);
+      m_motor2.setDirection(DM320T::up);
     }
     for (int i {0}; i < pulses; i++)
     {
@@ -153,12 +88,12 @@ class dualLeadscrewCarriage
   {
     if (pulses < 0)
     {
-      m_motor1.setDirection(false);
-      m_motor2.setDirection(true);
+      m_motor1.setDirection(DM320T::up);
+      m_motor2.setDirection(DM320T::down);
       pulses *= -1;
     } else {
-      m_motor1.setDirection(true);
-      m_motor2.setDirection(false);
+      m_motor1.setDirection(DM320T::down);
+      m_motor2.setDirection(DM320T::up);
     }
 
     for (int i {0}; i < pulses; i++)
