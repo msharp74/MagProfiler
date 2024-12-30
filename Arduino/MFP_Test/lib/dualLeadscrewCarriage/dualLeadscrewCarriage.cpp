@@ -2,7 +2,7 @@
 #include "dualLeadscrewCarriage.h"
 #include "DM320T.h"
 
-dualLeadscrewCarriage::dualLeadscrewCarriage(DM320T motor1, DM320T motor2)
+dualLeadscrewCarriage::dualLeadscrewCarriage(const DM320T& motor1, const DM320T& motor2)
     : m_motor1 {motor1}, m_motor2 {motor2}
 {
     // m_motor1.homeMotor();
@@ -77,4 +77,13 @@ inline void dualLeadscrewCarriage::rotationalMove(int pulses)
     // digitalWrite(m_motor2.getPulsePin(), LOW);
     delay(1);
   }
+}
+
+inline dualLeadscrewCarriage::Position dualLeadscrewCarriage::getPosition() const
+{
+  Position position {max(m_motor1.getPosition(),m_motor2.getPosition())};
+  int maxPulses {max(m_motor1.getPosition(),m_motor2.getPosition())};
+  int minPulses {min(m_motor1.getPosition(),m_motor2.getPosition())};
+  position.linear = ((minPulses + (maxPulses - minPulses)/2)*m_leadscrewPitch/m_motor1.getPulsePerRev());
+  position.angular = (abs)
 }
