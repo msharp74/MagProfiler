@@ -1,4 +1,4 @@
-#include <Arduino.h>
+#include "Arduino.h"
 #include "DM320T.h"
 #include "dualLeadscrewCarriage.h"
 
@@ -34,13 +34,15 @@ void setup() {
   DM320T motor2 {7, 8, 400, 5};
   dualLeadscrewCarriage dlc {motor1, motor2};
 
+  dlc.linearMove(-2000);
+  dlc.setHomePosition(dlc.getCurrentPosition());
+
   while (true)
   {
     dlc.linearMove(-8000);
-    dlc.rotationalMove(4000);
-    dlc.linearMove(4000);
-    dlc.rotationalMove(-4000);
-    dlc.linearMove(4000);
+    Serial.println(dlc.getCurrentPosition().linear);
+    dlc.linearMove(8000);
+    Serial.println(dlc.getCurrentPosition().linear);
   }
 }
 

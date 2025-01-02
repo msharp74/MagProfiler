@@ -15,21 +15,22 @@ class DM320T
   public:
   enum Direction
   {
-    down,
-    up
+    up,
+    down
   };
-
 
   DM320T() {}
   DM320T(int pulsePin, int directionPin, int microstepSize, int homePin);
+
   int getPosition() const {return m_position;}
   int getPulsePerRev() const {return m_pulsePerRev;}
-  int incrementPosition(int pulses = 1) {m_direction ? (m_position += pulses) : (m_position -= pulses);}
   bool getDirection() const {return m_direction;}
   int getMicrostepSize() const {return m_microstepSize;}
   int getPulsePin() const {return m_pulsePin;}
+  void incrementPosition(int pulses = 1) {m_direction ? (m_position -= pulses) : (m_position += pulses);}
   
+  void printPosition();
   void setDirection(Direction direction);
-  void moveMotor(int steps = 1);
+  void moveMotor(int steps = 1, int usDelay = 100);
   void homeMotor();
 };

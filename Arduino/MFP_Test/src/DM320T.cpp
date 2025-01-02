@@ -1,7 +1,7 @@
 #include "DM320T.h"
 #include "Arduino.h"
 
-inline DM320T::DM320T(int pulsePin, int directionPin, int microstepSize, int homePin)
+DM320T::DM320T(int pulsePin, int directionPin, int microstepSize, int homePin)
   : m_pulsePin {pulsePin}, m_directionPin {directionPin}, m_microstepSize {microstepSize}, m_homePin {homePin}
 {
   pinMode(m_pulsePin, OUTPUT);
@@ -12,13 +12,13 @@ inline DM320T::DM320T(int pulsePin, int directionPin, int microstepSize, int hom
   Serial.println("Motor Object Created");
 }
 
-inline void DM320T::setDirection(Direction direction)
+void DM320T::setDirection(Direction direction)
 {
   m_direction = direction;
   digitalWrite(m_directionPin, direction);
 }
 
-inline void DM320T::moveMotor(int steps = 1)
+void DM320T::moveMotor(int steps, int usDelay)
 {
   for (int i = 0; i < steps; i++)
   {
@@ -27,11 +27,12 @@ inline void DM320T::moveMotor(int steps = 1)
     digitalWrite(m_pulsePin, HIGH);
     delayMicroseconds(10);
     digitalWrite(m_pulsePin, LOW);
-    delay(1);
+    delayMicroseconds(usDelay);
+    incrementPosition();
   }
 }
 
-inline void DM320T::homeMotor()
+void DM320T::homeMotor()
 {
   setDirection(down);
   while (!digitalRead(m_homePin))
@@ -39,4 +40,9 @@ inline void DM320T::homeMotor()
     moveMotor();
   }
   m_motorHome = true;
+}
+
+void DM320T::printPosition()
+{
+  Serial.println(m_position);
 }
