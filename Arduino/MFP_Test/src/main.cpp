@@ -34,7 +34,7 @@ void setup() {
   DM320T motor2 {7, 8, 400, 5};
   dualLeadscrewCarriage dlc {motor1, motor2};
 
-  dlc.linearMove(-2000);
+  dlc.linearMove(-2000); 
   dlc.setHomePosition(dlc.getCurrentPosition());
 
   while (true)
