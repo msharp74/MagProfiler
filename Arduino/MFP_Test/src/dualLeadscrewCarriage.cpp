@@ -103,3 +103,9 @@ void dualLeadscrewCarriage::setHomePosition(Position position)
   m_homePosition = position;
   // m_homePosition = {linearHome, angularHome};
 }
+
+int dualLeadscrewCarriage::calcPulses(double linearDisplacement)
+{
+  int pulses {};
+  pulses = linearDisplacement * m_
+}

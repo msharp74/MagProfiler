@@ -31,4 +31,5 @@ class dualLeadscrewCarriage
   void setCurrentPosition(const Position& currentPosition) {m_currentPosition = currentPosition;}
   void calcPosition();
   void printCurrentPosition();
+  int calcPulses(double linearDisplacement); //linearDisplacement is in mm
 };
