@@ -26,6 +26,7 @@ class dualLeadscrewCarriage
   void linearMove(int pulses);
   void linearMove(double linearDisplacement);
   void rotationalMove(int pulses);
+  void rotationalMove(double angularDisplacement);
   void setHomePosition(Position position);
   void setHomePosition(double linearHome = 0.0, double angularHome = 0.0);
   void setCurrentPosition(const Position& currentPosition) {m_currentPosition = currentPosition;}

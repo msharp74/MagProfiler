@@ -61,6 +61,26 @@ void dualLeadscrewCarriage::rotationalMove(int pulses)
   }
 }
 
+void dualLeadscrewCarriage::rotationalMove(double angularDisplacement)
+{
+  int pulses {angularDisplacement*3.14159*m_wormgearDiameter*m_motor1.getPulsePerRev()/(180*m_leadscrewPitch)};
+  if (pulses < 0)
+  {
+    m_motor1.setDirection(DM320T::up);
+    m_motor2.setDirection(DM320T::down);
+    pulses *= -1;
+  } else {
+    m_motor1.setDirection(DM320T::down);
+    m_motor2.setDirection(DM320T::up);
+  }
+
+  for (int i {0}; i < pulses; i++)
+  {
+    m_motor1.moveMotor();
+    m_motor2.moveMotor();
+  }
+}
+
 void dualLeadscrewCarriage::calcPosition()
 {
   Position position {};
@@ -107,5 +127,6 @@ void dualLeadscrewCarriage::setHomePosition(Position position)
 int dualLeadscrewCarriage::calcPulses(double linearDisplacement)
 {
   int pulses {};
-  pulses = linearDisplacement * m_
+  pulses = floor(linearDisplacement/m_leadscrewPitch*m_motor1.getPulsePerRev());
+  return pulses;
 }
