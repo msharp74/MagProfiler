@@ -6158,10 +6158,6 @@
 		(uuid "14d61c7c-983c-4ae5-87fe-0b06ecacb55d")
 	)
 	(no_connect
-		(at 58.42 241.3)
-		(uuid "14eb495e-0a06-485d-a042-5698dab802ea")
-	)
-	(no_connect
 		(at 85.09 82.55)
 		(uuid "1b03fb96-d4e3-47f4-98e7-30b03e939843")
 	)
@@ -6202,10 +6198,6 @@
 		(uuid "a4406130-7c6e-4681-a83b-c304b55b2207")
 	)
 	(no_connect
-		(at 118.11 69.85)
-		(uuid "af828c42-3c01-4d8c-935e-a14c8b21e210")
-	)
-	(no_connect
 		(at 118.11 72.39)
 		(uuid "afab3aa5-26bb-45b6-8d4d-d805dbd6bbff")
 	)
@@ -6216,10 +6208,6 @@
 	(no_connect
 		(at 325.12 180.34)
 		(uuid "c644bed0-8903-4470-b992-6d4645fab386")
-	)
-	(no_connect
-		(at 191.77 241.3)
-		(uuid "e003d34a-e016-456f-a0d5-01781a5d1e84")
 	)
 	(no_connect
 		(at 85.09 102.87)
@@ -8391,6 +8379,16 @@
 	)
 	(wire
 		(pts
+			(xy 179.07 241.3) (xy 191.77 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3db2d656-6567-45ce-82c6-b7b85e20e686")
+	)
+	(wire
+		(pts
 			(xy 179.07 246.38) (xy 191.77 246.38)
 		)
 		(stroke
@@ -8658,6 +8656,16 @@
 			(type default)
 		)
 		(uuid "4e8e4657-9008-43ca-90ee-ad55e0543d7a")
+	)
+	(wire
+		(pts
+			(xy 118.11 69.85) (xy 130.81 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f51736b-514f-417e-8391-9c206fc59693")
 	)
 	(wire
 		(pts
@@ -10768,6 +10776,16 @@
 			(type default)
 		)
 		(uuid "aba21eef-7f78-4ef4-b535-78adfab1d7ec")
+	)
+	(wire
+		(pts
+			(xy 45.72 241.3) (xy 58.42 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac10b23b-862f-42a7-86a8-8b1bef587dff")
 	)
 	(wire
 		(pts
@@ -12898,6 +12916,17 @@
 		)
 		(uuid "0c5cd93a-cbdb-47f2-b579-4f1914f0917f")
 	)
+	(label "MTR_DECAY"
+		(at 45.72 241.3 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0d4a486e-486a-4c85-816d-b56d3e8d307c")
+	)
 	(label "MAG_CS16"
 		(at 369.57 92.71 180)
 		(fields_autoplaced yes)
@@ -13018,6 +13047,17 @@
 			(justify right bottom)
 		)
 		(uuid "174360f7-7f77-4ed5-a43e-ffd2c4d125ff")
+	)
+	(label "MTR_DECAY"
+		(at 130.81 69.85 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "18540390-7aa3-4391-bd70-314a290882cb")
 	)
 	(label "MAG_TRIG"
 		(at 259.08 81.28 0)
@@ -13262,7 +13302,7 @@
 		(uuid "3243358d-267f-495b-802a-e34eb3e6bf02")
 	)
 	(label "VCP2"
-		(at 201.93 209.55 0)
+		(at 200.66 209.55 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14272,6 +14312,17 @@
 			(justify right bottom)
 		)
 		(uuid "9ba98d71-b5c8-406a-9dc9-53549baba837")
+	)
+	(label "MTR_DECAY"
+		(at 179.07 241.3 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9bdb0a89-2dc1-495d-9db8-55c9f8b8dcd0")
 	)
 	(label "M2_V3P3OUT"
 		(at 231.14 215.9 0)

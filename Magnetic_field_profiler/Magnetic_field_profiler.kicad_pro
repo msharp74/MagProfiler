@@ -590,6 +590,10 @@
       {
         "netclass": "Signal",
         "pattern": "/*BOOT0"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "/VCP*"
       }
     ]
   },
